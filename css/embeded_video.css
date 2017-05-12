@@ -1,0 +1,104 @@
+body {
+  font-family: 'Roboto',arial,sans-serif;
+}
+
+nav {
+	border-bottom: 1px solid gray;
+	position: fixed;
+	width: 100%;
+	z-index: 988;
+	background-color: white;
+	top: 0;
+	padding: 10px;
+}
+
+#logo {
+	height: 30px;
+	width: 50px;
+	float: left;
+	margin-right: 40px;
+}
+
+#search {
+	display: inline-block;
+	padding: 2px 6px;
+}
+
+#search-terms {
+	width: 650px;
+}
+
+#search-btn {
+	width: 66px;
+	height: 29px;
+}
+
+#search-icon {
+	height: 15px;
+	width: 15px;
+}
+
+#action {
+	float: right;
+	display: inline;
+
+}
+
+#signin {
+	background-color: #167ac6;
+	border-color: #167ac6;
+	border-radius: 3px;
+	color: #fff;
+	box-shadow: 0;
+}
+
+#upload-icon {
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	margin: 0 20px;
+}
+
+
+
+#container {
+	position: relative;
+	background-color: white;
+	margin: 5px 5px;
+	top: 50px;
+}
+
+iframe {
+	display: inline-block;
+}
+
+aside {
+	float: right;
+	position: relative;
+	margin: 10px 18px 5px 18px;
+	width: 418px;
+}
+
+.next-video {
+	float: left;
+	width: 382px;
+}
+
+.video-description {
+	float: right;
+	display: inline;
+	width: 214px;
+}
+
+.playlist {
+	width: 168px;
+	height: 94px;
+}
+
+span {
+	font-size: 16px;
+}
+
+.first {
+	border-bottom: 1px solid gray;
+}
